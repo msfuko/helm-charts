@@ -1,0 +1,3 @@
+[submodule "charts/admission-controller"]
+	path = charts/admission-controller
+	url = https://dsgithub.trendmicro.com/container-security/helm
