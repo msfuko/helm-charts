@@ -1,3 +1,6 @@
 [submodule "charts/admission-controller"]
 	path = charts/admission-controller
-	url = https://dsgithub.trendmicro.com/container-security/helm
+	url = https://github.com/trendmicro/cloudone-container-security-helm.git
+[submodule "charts/smartcheck"]
+	path = charts/smartcheck
+	url = https://github.com/deep-security/smartcheck-helm
