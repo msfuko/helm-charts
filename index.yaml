@@ -3,7 +3,7 @@ entries:
   smartcheck:
   - apiVersion: v1
     appVersion: 1.2.59
-    created: "2021-03-18T14:50:47.493732-04:00"
+    created: "2021-03-18T14:58:37.657915-04:00"
     description: Deep Security Smart Check
     digest: 7b36912516391dc4401268938f1ceb6efe419e7746281764737cc3b0120455f6
     home: https://github.com/deep-security/smartcheck-helm
@@ -14,12 +14,12 @@ entries:
       url: https://www.trendmicro.com/smartcheck
     name: smartcheck
     urls:
-    - https://dsgithub.trendmicro.com/pages/chloel/helm-charts/smartcheck-1.2.59.tgz
+    - https://dsgithub.trendmicro.com/raw/chloel/helm-charts/gh-pages/smartcheck-1.2.59.tgz
     version: 1.2.59
   trendmicro-container-security:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2021-03-18T14:50:47.510497-04:00"
+    created: "2021-03-18T14:58:37.673484-04:00"
     description: Trend Micro Cloud One Container Security
     digest: d24c199dfd7d9df33f72a548c081e3756c1367954633dbded78ebb16eb3ab666
     home: https://github.com/trendmicro/cloudone-admission-controller-helm
@@ -28,6 +28,6 @@ entries:
     - name: Trend Micro
     name: trendmicro-container-security
     urls:
-    - https://dsgithub.trendmicro.com/pages/chloel/helm-charts/trendmicro-container-security-1.0.1.tgz
+    - https://dsgithub.trendmicro.com/raw/chloel/helm-charts/gh-pages/trendmicro-container-security-1.0.1.tgz
     version: 1.0.1
-generated: "2021-03-18T14:50:47.475183-04:00"
+generated: "2021-03-18T14:58:37.641938-04:00"
