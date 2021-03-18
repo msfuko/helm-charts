@@ -14,7 +14,7 @@ entries:
       url: https://www.trendmicro.com/smartcheck
     name: smartcheck
     urls:
-    - https://dsgithub.trendmicro.com/raw/chloel/helm-charts/gh-pages/smartcheck-1.2.59.tgz
+    - https://msfuko.github.io/helm-charts/smartcheck-1.2.59.tgz
     version: 1.2.59
   trendmicro-container-security:
   - apiVersion: v1
@@ -28,6 +28,6 @@ entries:
     - name: Trend Micro
     name: trendmicro-container-security
     urls:
-    - https://dsgithub.trendmicro.com/raw/chloel/helm-charts/gh-pages/trendmicro-container-security-1.0.1.tgz
+    - https://msfuko.github.io/helm-charts/trendmicro-container-security-1.0.1.tgz
     version: 1.0.1
 generated: "2021-03-18T14:58:37.641938-04:00"
