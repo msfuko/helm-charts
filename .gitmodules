@@ -4,3 +4,6 @@
 [submodule "charts/smartcheck"]
 	path = charts/smartcheck
 	url = https://github.com/deep-security/smartcheck-helm
+[submodule "charts/umbrella-chart"]
+	path = charts/umbrella-chart
+	url = git@dsgithub.trendmicro.com:chloel/umbrella-chart.git
