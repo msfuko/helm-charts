@@ -1,47 +1,41 @@
-apiVersion: v1
-entries:
-  c1cs-umbrella-chart:
-  - apiVersion: v1
-    appVersion: 1.0.0
-    created: "2021-03-26T12:25:23.181935-04:00"
-    description: A demo chart for umbrella helm chart
-    digest: 35f19f3980b1b70e06728dd312d2e546bc89fa60348cf4c5a7ff4e5b3c6c3bb4
-    home: https://dsgithub.trendmicro.com:chloel/umbrella-chart.git
-    kubeVersion: '>=1.14.0-0'
-    maintainers:
-    - name: Trend Micro
-    name: c1cs-umbrella-chart
-    urls:
-    - https://msfuko.github.io/helm-charts/c1cs-umbrella-chart-1.0.0.tgz
-    version: 1.0.0
-  smartcheck:
-  - apiVersion: v1
-    appVersion: 1.2.59
-    created: "2021-03-26T12:25:23.199587-04:00"
-    description: Deep Security Smart Check
-    digest: b67ef55d483cfa0a7b43d48b6eeeed171c3e850110670f38f97926044ccb24ab
-    home: https://github.com/deep-security/smartcheck-helm
-    icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIyOC44cHgiIGhlaWdodD0iMjguOHB4IiB2aWV3Qm94PSIyMy44OTIgMi4yMjYgMjguOCAyOC44IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDIzLjg5MiAyLjIyNiAyOC44IDI4LjgiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxnPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik01MS42OTUsMTYuNjIyYzAsNy4zOTItNS45OSwxMy4zODItMTMuMzgxLDEzLjM4MmMtNy4zOTYsMC0xMy4zODktNS45OS0xMy4zODktMTMuMzgyIGMwLTcuMzk1LDUuOTkzLTEzLjM4MywxMy4zODktMTMuMzgzQzQ1LjcwNSwzLjIzOSw1MS42OTUsOS4yMjksNTEuNjk1LDE2LjYyMnoiLz48cGF0aCBmaWxsPSIjRUQxQzI0IiBkPSJNMjcuMzMyLDE5LjE4OGMwLjAwOC0wLjAwNiwwLjAxMy0wLjAyNSwwLjAxOS0wLjAzOWMwLjAxOC0wLjA0OSwwLjAzOS0wLjA5NiwwLjA1NS0wLjE0NiBjMC4wMTktMC4wNDMsMC4wMzUtMC4wODIsMC4wNTItMC4xMjVjMC4wMDgtMC4wMjUsMC4wMTYtMC4wNDYsMC4wMjMtMC4wNjJjMC4yNS0wLjYxOSwwLjU2NC0xLjI1MywwLjk0Ny0xLjg5MyBjMC4wNS0wLjExMywwLjEwMy0wLjIxMywwLjE1Ny0wLjMyMmwtMS42MTEsMC4wMDhsMC4zOTMtMC44NmMxLjMyNi0wLjM2NCwzLjUzNy0xLjEwNCw1LjY1LTMuMTQ2bDAuMDU5LTAuMDA5aDEuMTEybC0xLjQzNSwzLjA3NyBsMi4zMDYtMC4wMDZsLTAuNDI1LDAuOTE4bC0yLjMwMiwwLjAxYzAsMC0xLjA4LDIuMTYtMS40NDcsMy43MDZjLTAuMjg1LDEuNzI5LTAuMDA2LDMuMDE2LDEuNTQsMy40OTYgYzAuOTU1LDAuMjk1LDIuMTQ2LDAuMjI3LDMuNDI5LTAuMTMzYzIuOTg3LTAuOTM2LDYuMTc3LTIuOTg2LDguNTE1LTUuNzA1YzMuODQ3LTQuNDY5LDMuOTI0LTkuMDQyLDAuMTY5LTEwLjIwMyBjLTIuNDA1LTAuNzUyLTUuNzk4LDAuMDgyLTguOTM5LDEuOTUyYzMuOTE3LTIuNTI3LDguMjE3LTMuNzEzLDExLjE5Mi0yLjc4NmMwLjU1NCwwLjE3LDEuMDM5LDAuNDExLDEuNDQ5LDAuNzA3IGMtMi40NTEtMi43MDEtNi00LjQwMy05LjkzNy00LjQwM2MtNy40MDcsMC0xMy40MTIsNi4wMDItMTMuNDEyLDEzLjQwOGMwLDIuNzMyLDAuODE4LDUuMjc2LDIuMjI2LDcuMzk5IEMyNi41ODMsMjIuNzIzLDI2LjY2LDIxLjA0NSwyNy4zMzIsMTkuMTg4TDI3LjMzMiwxOS4xODh6Ii8+PHBhdGggZmlsbD0iI0VEMUMyNCIgZD0iTTQ5LjcyLDkuNTQ2YzAuOSwyLjQzNi0wLjIyMSw2LjA3NC0zLjMyLDkuNjcxYy00LjY0OCw1LjQwNi0xMS45OTUsOC42NzYtMTYuNDAyLDcuMzExIGMtMC41NDctMC4xNzYtMS4wMjItMC40MDYtMS40My0wLjY5OWMyLjQ0OSwyLjYxMSw1LjkyNSw0LjI0Niw5Ljc4OCw0LjI0NmM3LjQwNSwwLDEzLjQwOC02LjAwOCwxMy40MDgtMTMuNDEzIEM1MS43NjMsMTQuMDQ2LDUxLjAxNywxMS42MDYsNDkuNzIsOS41NDZMNDkuNzIsOS41NDZ6Ii8+PC9nPjwvZz48cmVjdCB4PSIyMy44OTIiIHk9IjIuMjI2IiBmaWxsPSJub25lIiB3aWR0aD0iMjguOCIgaGVpZ2h0PSIyOC44Ii8+PC9zdmc+Cgo=
-    kubeVersion: '>=1.10.0-0'
-    maintainers:
-    - name: Trend Micro
-      url: https://www.trendmicro.com/smartcheck
-    name: smartcheck
-    urls:
-    - https://msfuko.github.io/helm-charts/smartcheck-1.2.59.tgz
-    version: 1.2.59
-  trendmicro-container-security:
-  - apiVersion: v1
-    appVersion: 1.0.1
-    created: "2021-03-26T12:25:23.219148-04:00"
-    description: Trend Micro Cloud One Container Security
-    digest: fa02806dc4f8fc2093033c45a736e883b789e420b8abea56d5712a1a50cef3e4
-    home: https://github.com/trendmicro/cloudone-admission-controller-helm
-    kubeVersion: '>=1.14.0-0'
-    maintainers:
-    - name: Trend Micro
-    name: trendmicro-container-security
-    urls:
-    - https://msfuko.github.io/helm-charts/trendmicro-container-security-1.0.1.tgz
-    version: 1.0.1
-generated: "2021-03-26T12:25:23.145104-04:00"
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>helm-charts by chloel</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>helm-charts</h1>
+        <p></p>
+
+        <p class="view"><a href="https://github.com/msfuko/helm-charts">View the Project on GitHub <small>chloel/helm-charts</small></a></p>
+
+
+      </header>
+      <section>
+        <h3>
+<a id="container-security-kubernetes-helm-charts" class="anchor" href="#container-security-kubernetes-helm-charts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Container Security Kubernetes Helm Charts</h3>
+<p>Helm must be installed to use the charts. Please refer to Helm’s documentation to get started.
+Once Helm is set up properly, add the repo as follows:</p>
+<p><code>helm repo add trendmicro https://msfuko.github.io/helm-charts/</code></p>
+<p>You can then run <code>helm search repo trendmicro</code> to see the charts.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://dsgithub.trendmicro.com/chloel">chloel</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
